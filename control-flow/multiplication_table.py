@@ -1,6 +1,8 @@
-X = int(input("Enter a number to see its multiplication table: "))
+# Prompt User for a Number
+number = int(input("Enter a number to see its multiplication table: "))
 
-for Y in range(1, 11):
-    Z = X * Y
+# Generate and Print the Multiplication Table
+for i in range(1, 11):
+    result = number * i
+    print(f"{number} * {i} = {result}")
 
-    print(f"{X} * {Y} = {Z}")
