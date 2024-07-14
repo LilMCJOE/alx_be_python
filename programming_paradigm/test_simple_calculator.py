@@ -30,7 +30,7 @@ class TestSimpleCalculator(unittest.TestCase):
 
     # testing multiplication
 
-    def test_multiply(self):
+    def test_multiplication(self):
         self.assertEqual(self.calc.multiply(1, 2), 2)
         self.assertEqual(self.calc.multiply(2, 3), 6)
         self.assertEqual(self.calc.multiply(3, 4), 12)
