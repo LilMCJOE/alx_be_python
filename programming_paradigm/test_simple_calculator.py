@@ -17,16 +17,16 @@ class TestSimpleCalculator(unittest.TestCase):
         self.assertEqual(self.calc.add(9, 9), 18)
         self.assertEqual(self.calc.add(10, 4), 14)
    
-   # testing substraction:
+   # testing substraction
    
-   def test_substraction(self):
-        self.assertEqual(self.calc.substract(2, 3), 1)
-        self.assertEqual(self.calc.substract(3, 1), 2)
-        self.assertEqual(self.calc.substract(4, 4), 0)
-        self.assertEqual(self.calc.substract(10,5 ), 5)
-        self.assertEqual(self.calc.substract(9,5 ), 4)
-        self.assertEqual(self.calc.substract(8,2 ), 6)
-        self.assertEqual(self.calc.substract(10,3 ), 7)
+   def test_subtraction(self):
+        self.assertEqual(self.calc.subtract(2, 3), 1)
+        self.assertEqual(self.calc.subtract(3, 1), 2)
+        self.assertEqual(self.calc.subtract(4, 4), 0)
+        self.assertEqual(self.calc.subtract(10,5 ), 5)
+        self.assertEqual(self.calc.subtract(9,5 ), 4)
+        self.assertEqual(self.calc.subtract(8,2 ), 6)
+        self.assertEqual(self.calc.subtract(10,3 ), 7)
 
     # testing multiplication
 
